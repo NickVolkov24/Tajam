@@ -1,0 +1,40 @@
+footer {
+  background-color: #262d34;
+  border-top: 11px solid #ff1744;
+}
+
+.container-foot {
+  padding: 29px 7px 28px 8px;
+}
+
+.subtitle-footer {
+  color: #a5adb8;
+  font-family: "Arial MT";
+  font-weight: 400;
+}
+
+.list-foot-subtitle {
+  color: #85898f;
+  font-family: "Arial MT";
+  font-weight: 400;
+  font-size: 12px;
+  padding-bottom: 9px;
+  margin: 0;
+}
+
+.list-foot-info {
+  color: #a5adb8;
+  font-family: "Arial - Bold MT";
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.list-link {
+  color: #d08b98;
+  font-family: "Arial MT";
+  font-size: 12px;
+}
+
+.word {
+  text-transform: uppercase;
+}

@@ -1,0 +1,45 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  list-style-position: inside;
+  margin: 0;
+}
+
+li {
+  padding-top: 9px;
+}
+
+.list-unorder {
+  list-style-type: disc;
+  padding-left: 10px;
+}
+
+.list-unorder .list-inside {
+  padding-left: 17px;
+}
+
+.list-none .list-inside {
+  padding-left: 22px;
+}
+
+.list-order {
+  list-style-type: decimal;
+}
+
+.list-foot {
+  color: #85898f;
+  font-family: "Arial MT";
+  font-size: 12px;
+}
+
+.list-foot li {
+  padding-top: 13px;
+}
+
+.red-dot li::before {
+  color: #ff1744;
+  content: "•";
+  width: 5px;
+  height: auto;
+  padding-right: 9px;
+}

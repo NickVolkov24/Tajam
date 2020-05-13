@@ -1,0 +1,70 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+.grid > .grid-item {
+  padding: 10px;
+}
+
+.section-expertise .grid {
+  margin: -1px;
+}
+
+.section-expertise .grid .grid-item {
+  padding: 0px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  background-color: red;
+}
+
+.section-team .team {
+  margin: 50px 0 0 0;
+}
+
+.first-row .grid-item {
+  padding-left: 0px;
+}
+.section-gallery .width-photo {
+  width: calc(100% / 6);
+  height: auto;
+  padding: 0px;
+}
+
+.section-gallery .grid {
+  margin: 0px;
+  padding-bottom: 70px;
+}
+
+.section-forms .grid-brends {
+  padding-left: 100px;
+}
+
+.section-forms .grid .grid .grid-item {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 37px;
+}
+.section-forms .grid .grid .grid-item:nth-child(even) {
+  padding-left: 52px;
+}
+.section-forms .grid .grid .grid-item:nth-child(odd) {
+  padding-right: 52px;
+}
+
+.section-footer .grid .grid-item:first-child {
+  padding-right: 46px;
+}
+
+.section-footer .grid-item:nth-child(2n) {
+  padding-right: 72px;
+}

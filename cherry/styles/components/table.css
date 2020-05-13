@@ -1,0 +1,32 @@
+.table {
+  background-color: #2c343c;
+
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  color: #a5adb8;
+  font-family: "Arial MT";
+  font-size: 12px;
+}
+
+.first-row {
+  font-family: "Arial - Bold MT";
+  background-color: #ff1744;
+  color: #ffffff;
+}
+
+th,
+td {
+  border: 1px solid #d8dbde;
+  padding: 13px 18px 10px;
+}
+
+td:first-child {
+  font-size: 14px;
+}
+
+.table-link {
+  color: #d08b98;
+}

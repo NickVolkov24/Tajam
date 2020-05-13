@@ -1,0 +1,13 @@
+.header {
+  font-size: 0;
+  font-family: "Arial - Bold MT";
+}
+
+.header-top {
+  background-color: #2c343c;
+  padding: 20px 0 15px 0;
+}
+
+.header-bottom {
+  background-color: #ff1744;
+}

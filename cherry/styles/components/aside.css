@@ -1,0 +1,18 @@
+.img-aside {
+  width: 209px;
+  height: 115px;
+}
+.aside-subtitle {
+  padding-top: 30px;
+}
+
+.aside-description {
+  font-size: 12px;
+  color: #5c646e;
+  margin-bottom: 22px;
+}
+
+.aside-link {
+  font-family: "Arial - Bold MT";
+  font-size: 12px;
+}
